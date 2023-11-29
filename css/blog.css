@@ -1,0 +1,144 @@
+/* Start Navbar Style */
+
+nav {
+    background-color: #fff;
+    position: static;
+}
+
+nav .container ul li a {
+    color: var(--secondaryColor);
+    transition: all .5s ease;
+    opacity: .7;
+}
+
+nav .container ul li a:hover,
+nav .container ul li:nth-of-type(4) a {
+    opacity: 1;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background-color: #222222;
+}
+
+#banner .container h1 {
+    color: #fff;
+}
+
+/* End Banner Style */
+
+/* Start Blog Style */
+
+#blog {
+    background-color: var(--mainBackgroundColor);
+}
+
+#blog .container div {
+    width: 32%;
+}
+
+#blog .container div:first-of-type article,
+#blog .container div:nth-of-type(2) article {
+    background-color: #fff;
+}
+
+#blog .container div article {
+    color: #333333;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#blog .container div article header {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px 0 25px;
+}
+
+#blog .container div article header p {
+    margin-bottom: 7px;
+}
+
+#blog .container div article header i {
+    position: absolute;
+    bottom: 24px;
+    right: 22px;
+    font-size: 26px;
+    opacity: 0.6;
+}
+
+#blog .container div article h3 {
+    padding: 20px 0 13px 25px;
+    font-size: 16px;
+}
+
+#blog .container div article span {
+    font-size: 13px;
+    padding-left: 25px;
+    color: #aaa;
+}
+
+#blog .container div article p {
+    padding: 0 25px;
+    margin-top: 8px;
+}
+
+#blog .container div article a {
+    color: #333333;
+    margin: 12px 0 35px 25px;
+}
+
+#blog .container div article a i {
+    transition: all .5s ease;
+}
+
+#blog .container div article a i {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#blog .container div article a:hover i {
+    margin-left: 10px;
+}
+
+#blog .container div:last-of-type article:first-of-type {
+    margin-top: 0;
+}
+
+#blog .container div:last-of-type article {
+    margin: 30px 0;
+}
+
+#blog .container div:last-of-type article h3 {
+    padding: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#blog .container div:last-of-type article span {
+    padding-left: 0;
+    color: inherit;
+}
+
+#blog .container div hr {
+    margin: 15px 30px;
+    border-color: #ffffff3b;
+}
+
+#blog .container div article ul {
+    margin-left: 30px;
+}
+
+#blog .container div article ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#blog .container div article ul li i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* End Blog Style */

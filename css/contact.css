@@ -1,0 +1,113 @@
+/* Start Navbar Style */
+
+nav {
+    background-color: #fff;
+    position: static;
+}
+
+nav .container ul li a {
+    color: var(--secondaryColor);
+    transition: all .5s ease;
+    opacity: .7;
+}
+
+nav .container ul li a:hover,
+nav .container ul li:last-of-type a {
+    opacity: 1;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background-color: #222222;
+}
+
+#banner .container h1 {
+    color: #fff;
+}
+
+/* End Banner Style */
+
+/* Start contact Style */
+
+#contact .container form {
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+#contact .container form input,
+#contact .container form textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 13px;
+    border: 1px solid #e6e6e6;
+    color: #55595c;
+}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+    border-color: #333333;
+}
+
+#contact .container form input[name="name"], 
+#contact .container form input[name="email"] {
+    width: 48%;
+}
+
+#contact .container form input::placeholder,
+#contact .container form textarea::placeholder {
+    text-transform: capitalize;
+    color: #cacaca;
+}
+
+#contact .container form textarea {
+    height: 250px;
+}
+
+#contact .container form button {
+    padding: 13px 26px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: #333333;
+    color: #fff;
+}
+
+#contact .container article {
+    width: 35%;
+}
+
+#contact .container article p {
+    color: var(--mainColor);
+    margin: 15px 0 40px;
+}
+
+#contact .container article span {
+    color: var(--mainColor);
+    margin-bottom: 15px;
+}
+
+#contact .container article ul {
+    color: var(--mainColor);
+}
+
+#contact .container article ul li {
+    margin-bottom: 10px;
+}
+
+#contact .container article ul li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #333333;
+    line-height: 40px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+/* End contact Style */

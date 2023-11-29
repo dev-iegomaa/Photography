@@ -1,0 +1,73 @@
+/* Start Navbar Style */
+
+nav {
+    background-color: #fff;
+    position: static;
+}
+
+nav .container ul li a {
+    color: var(--secondaryColor);
+    transition: all .5s ease;
+    opacity: .7;
+}
+
+nav .container ul li a:hover,
+nav .container ul li:nth-of-type(3) a {
+    opacity: 1;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background-color: #222222;
+}
+
+#banner .container h1 {
+    color: #fff;
+}
+
+#banner .container p {
+    color: #fff;
+}
+
+/* End Banner Style */
+
+/* Start Albums Style */
+
+#albums .container ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#albums .container ul li {
+    color: #949494;
+    transition: all .5s ease;
+}
+
+#albums .container ul li:first-of-type {
+    color: #2d2c2c;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #5652524d;
+}
+
+#albums .container ul li:hover {
+    color: #2d2c2c;
+}
+
+#albums .container article {
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#albums .container article div {
+    width: 32%;
+}
+
+#albums .container article div img {
+    margin-bottom: 20px;
+}
+
+/* End Albums Style */

@@ -1,0 +1,145 @@
+/* Start Navbar Style */
+
+nav {
+    background-color: #fff;
+    position: static;
+}
+
+nav .container ul li a {
+    color: var(--secondaryColor);
+    transition: all .5s ease;
+    opacity: .7;
+}
+
+nav .container ul li a:hover,
+nav .container ul li:nth-of-type(2) a {
+    opacity: 1;
+}
+
+/* End Navbar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: rgba(0 0 0 / 20%) url(../image/photo-1495234347927-15da3bd48ee6.jpg) center;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+#banner .container h1 {
+    color: #fff;
+}
+
+#banner .container p {
+    
+    color: #fff;
+}
+
+/* End Banner Style */
+
+/* Start Who Am I Section */
+
+#who-am-i .container div:first-of-type {
+    padding-top: 50px;
+    width: 45%;
+}
+
+#who-am-i .container div:last-of-type {
+    width: 48%;
+}
+
+#who-am-i .container p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: var(--secondaryColor);
+    opacity: 0.7;
+}
+
+#who-am-i .container p:last-of-type {
+    margin-top: 50px;
+}
+
+/* End Who Am I Section */
+
+/* Start How Did I Start Section */
+
+#how-did-i-start {
+    background-color: var(--mainBackgroundColor);
+}
+
+#how-did-i-start .container div:first-of-type {
+    width: 48%;
+}
+
+#how-did-i-start .container div:last-of-type {
+    padding-top: 50px;
+    width: 45%;
+}
+
+#how-did-i-start .container p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: var(--secondaryColor);
+    opacity: 0.7;
+}
+
+#how-did-i-start .container p:last-of-type {
+    margin-top: 50px;
+}
+
+/* End How Did I Start Section */
+
+/* Start Services Style */
+
+#services .container article i {
+    background: #333333;
+    color: #fff;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    font-size: 32px;
+    margin: 0 auto 22px;
+}
+
+#services .container article p {
+    color: var(--secondaryColor);
+    opacity: 0.7;
+}
+
+/* End Services Style */
+
+/* Start Our Goal Style */
+
+#our-goal {
+    background-color: var(--mainBackgroundColor);
+}
+
+#our-goal .container ul {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#our-goal .container ul li {
+    font-size: 13px;
+    padding: 5px;
+    font-family: system-ui;
+    transition: all .5s ease;
+    border-bottom: 1px solid transparent;
+}
+
+#our-goal .container ul li:first-of-type,
+#our-goal .container ul li:hover {
+    border-bottom-color: #5652524d;
+}
+
+#our-goal .container div {
+    margin-top: 20px;
+}
+
+#our-goal .container div p {
+    width: 48%;
+    color: var(--mainColor);
+}
+
+/* End Our Goal Style */

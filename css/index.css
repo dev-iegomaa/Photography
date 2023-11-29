@@ -1,0 +1,194 @@
+/* Start Banner Style */
+
+#banner {
+    background: rgba(0 0 0 / 20%) url('../image/photo-1495234347927-15da3bd48ee6.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#banner .container span,
+#banner .container p {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+#banner .container h1 {
+    font-weight: 400;
+    font-size: 76px;
+    margin: 5px 0 20px;
+}
+
+#banner .container button {
+    padding: 16px 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+
+#banner .container button:hover {
+    opacity: .8;
+}
+
+/* End Banner Style */
+
+/* Start Our Website Section */
+
+#our-website p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: var(--mainColor);
+}
+
+/* End Our Website Section */
+
+/* Start About Section */
+
+#about {
+    background-color: var(--mainBackgroundColor);
+}
+
+#about .container div:first-of-type {
+    width: 48%;
+}
+
+#about .container div:last-of-type {
+    width: 45%;
+    padding-top: 50px;
+}
+
+#about .container p {
+    margin-top: 30px;
+    font-size: 17px;
+    color: var(--mainColor);
+}
+
+#about .container p:last-of-type {
+    margin-top: 50px;
+}
+
+/* End About Section */
+
+/* Start Albums Style */
+
+#albums .container p {
+    margin: 20px 0 50px;
+    color: #888888;
+}
+
+#albums .container ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#albums .container ul li {
+    color: #949494;
+    transition: all .5s ease;
+}
+
+#albums .container ul li:first-of-type {
+    color: #2d2c2c;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #5652524d;
+}
+
+#albums .container ul li:hover {
+    color: #2d2c2c;
+}
+
+#albums .container article {
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#albums .container article div {
+    width: 32%;
+}
+
+#albums .container article div img {
+    margin-bottom: 20px;
+}
+
+#albums .container button {
+    padding: 13px 26px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: #333333;
+    color: #fff;
+}
+
+/* End Albums Style */
+
+/* Start News Style */
+
+#news {
+    background-color: var(--mainBackgroundColor);
+}
+
+#news .container > p {
+    color: #888888;
+    margin: 15px 0 50px;
+}
+
+#news .container div {
+    text-align: left;
+}
+
+#news .container div article {
+    width: 32%;
+    background-color: #fff;
+    color: #333333;
+}
+
+#news .container div article h3 {
+    padding: 20px 0 13px 25px;
+    font-size: 16px;
+}
+
+#news .container div article span {
+    font-size: 13px;
+    padding-left: 25px;
+    color: #aaa;
+}
+
+#news .container div article p {
+    padding: 0 25px;
+    margin-top: 8px;
+}
+
+#news .container div article a {
+    color: #333333;
+    margin: 12px 0 35px 25px;
+}
+
+#news .container div article a i {
+    transition: all .5s ease;
+}
+
+#news .container div article a i,
+#news .container button i {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#news .container div article a:hover i {
+    margin-left: 10px;
+}
+
+#news .container button {
+    padding: 13px 26px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: #333333;
+    color: #fff;
+    margin-top: 25px;
+}
+
+/* End News Style */
